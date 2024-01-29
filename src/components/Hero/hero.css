@@ -1,0 +1,31 @@
+.hero{
+    border: 1px solid greenyellow;
+    background-image: url('../../assets/heroBackground.jpg');
+    filter: brightness(40%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    border: 1px solid red;
+}
+
+.left-container{
+    border: 1px solid yellow;
+    flex-direction: column;
+    width: 50%;
+}
+
+.left-container h1{
+    font-family: var(--font-brand);
+    font-size: 3em;
+    font-weight: 800;
+
+}
+
+.left-container p{
+    font-family: var(--font-text);
+}
+.right-container{
+    border: 1px solid blue;
+}
