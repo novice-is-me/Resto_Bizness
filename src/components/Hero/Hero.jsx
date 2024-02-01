@@ -2,7 +2,6 @@ import React from 'react'
 import './hero.css' 
 import ButtonComponent from '../Button/ButtonComponent' 
 import imageHero from '../../assets/imageHero.png'
-import heroBackground from '../../assets/heroBackground.jpg'
 
 const Hero = () => {
   return (
@@ -10,7 +9,7 @@ const Hero = () => {
       <div className='container d-flex justify-content-between m-0'>
         <div className='d-flex left-container justify-content-center align-items-center'>
           <div>
-            <h1>EXPLORE ORDER AND <br /> SAVOR!</h1>
+            <h1>EXPLORE ORDER AND SAVOR!</h1>
             <p style={{fontWeight:'bold'}}>Elevate your order experience with a simple click!</p> 
             <p>Delight in a seamless process as you discover, order, and savor with ease.</p>
           </div>
