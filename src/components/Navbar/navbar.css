@@ -46,6 +46,7 @@
         padding: 1.2em;
         border-radius: 10px;
         font-family: var(--font-text);
+        z-index: 1;
     } 
 }
 

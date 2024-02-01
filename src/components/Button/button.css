@@ -1,0 +1,26 @@
+.button button{
+    padding: .75rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    background-color: #FF5F00 !important;
+    color: white;
+    font-family: var(--font-text);
+    border-color: #FF5F00 !important;
+}
+
+.button button:hover{
+    background-color: transparent !important;
+
+}  
+
+@media screen and (max-width: 990px) {
+    .button button{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button button{
+        padding: .5rem .75rem;
+    }
+}
