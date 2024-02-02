@@ -1,3 +1,10 @@
 .about{
     background-color: #FBFADA;
 }
+
+@media screen and (max-width: 400px) {
+    .about{
+        padding: 3rem !important;
+    }
+
+}

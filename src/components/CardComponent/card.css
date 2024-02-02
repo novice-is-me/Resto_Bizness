@@ -1,0 +1,27 @@
+.card img{
+    height: 100%;
+    width: 20%;
+} 
+
+.card-title{
+    font-weight: 700;
+}
+.card-text,
+.card-title{
+    font-family: var(--font-text);
+}
+
+@media screen and (max-width: 769px) {
+    .card{
+        max-width: 70%;
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card{
+        width: 100%;
+        min-width: 100%
+    }
+    
+}
