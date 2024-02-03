@@ -18,7 +18,7 @@ const CardComponent = ({image, title, text}) => {
   }
 
   return (
-    <div className='card col-lg col-md-4 p-3 me-3 mb-5' 
+    <div className='card col-lg col-md-5 p-3 me-3 mb-5' 
     onMouseEnter={changeBackgroundEnter}
     onMouseLeave={changeBackgroundLeave}>
         <img src={image} alt="" className='card-img-top' />
