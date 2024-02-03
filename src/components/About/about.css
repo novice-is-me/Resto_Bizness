@@ -5,6 +5,11 @@
     margin-top: 3rem;
 }
 
+.secondColumn{
+    padding: 0;
+    margin-left: 3rem !important;
+}
+
 
 @media screen and (max-width: 400px) {
     .about{

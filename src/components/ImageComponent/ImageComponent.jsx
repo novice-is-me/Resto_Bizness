@@ -1,9 +1,10 @@
 import React from 'react'
+import './image.css'
 
-const ImageComponent = ({image}) => {
+const ImageComponent = ({image, style}) => {
   return (
-    <div className='col'>
-        <img src={image} alt="" className='img-fluid'/>
+    <div className='col p-0'>
+        <img src={image} alt="" className='img-fluid' style={style}/>
     </div>
   )
 }
