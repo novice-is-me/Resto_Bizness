@@ -1,24 +1,19 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
-// import CountUp from 'react-countup';
+import CountUp from 'react-countup';
+import ScrollTrigger from 'react-scroll-trigger';
 
-const CountComponent = () => {
-    const [count, setCount] = useState(0); 
 
-    const addCount = () => {
-        setCount(count + 1);
-        console.log(count)
-    }
+const CountComponent = ({end}) => {
+  const [counterOn, setCountterOn] = useState(false)
 
-    useEffect(()=>{
-        if (count <= 5){
-
-        }
-    })
   return (
-    <div className=''>
-      <h5></h5>
-    </div>
+    <ScrollTrigger onEnter={()=> setCountterOn(true)} 
+    onExit={()=> setCountterOn(false)}>
+      <div className=''>
+        {counterOn && <h5><CountUp start={0} end={end} delay={0} duration={2}/></h5>}
+      </div>
+    </ScrollTrigger>
   )
 }
 

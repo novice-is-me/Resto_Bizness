@@ -3,6 +3,7 @@ import './aboutComponents.css'
 import ButtonComponent from '../Button/ButtonComponent'
 import CountComponent from '../Counting/CountComponent'
 
+
 const AboutComponents = () => {
   return (
     <div className='about ps-2 d-flex'>
@@ -13,14 +14,14 @@ const AboutComponents = () => {
         </div>
         <div className='counting d-flex'>
           <div className='d-flex'>
-            <h2><CountComponent/></h2>
+            <h2><CountComponent end={15}/></h2>
             <div className='d-flex flex-column'>
               <p>Years of</p>
               <h4>EXPERIENCE</h4>
             </div>
           </div>
           <div className='d-flex'>
-            
+            <h2><CountComponent end={50}/></h2>
             <div className='d-flex flex-column'>
               <p>Years of</p>
               <h4>EXPERIENCE</h4>
