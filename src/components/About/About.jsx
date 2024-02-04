@@ -21,8 +21,8 @@ const About = () => {
             text={" Providing  availability for your needs, ensuring prompt and reliable assistance whenever you require it"}/>
           </div>
         </div>
-        <div className='container d-grid'>
-          <div className='row'>
+        <div className='container d-grid second'>
+          <div className='row aboutRow'>
             <div className='col w-50 firstColumn'>
               <div className='firstRow row justify-content-center d-flex'>
                   <ImageComponent image={bread}/> 

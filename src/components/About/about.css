@@ -10,7 +10,22 @@
     margin-left: 3rem !important;
 }
 
+@media screen and (max-width: 990px) {
+   .firstColumn,
+   .secondColumn{
+        width: 100% !important;
+   }
 
+   .secondColumn{
+        margin-top: 1rem;
+        margin-left: 0 !important;
+   }
+
+   .aboutRow{
+    flex-direction: column;
+   }
+    
+}
 @media screen and (max-width: 400px) {
     .about{
         padding: 3rem !important;

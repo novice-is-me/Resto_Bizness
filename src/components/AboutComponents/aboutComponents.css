@@ -1,3 +1,65 @@
-.about{
+.aboutColumn{
     flex-direction: column;
+}
+
+.content h3,
+.content h2{
+    font-family: var(--font-brand);
+}
+
+.content h2{
+    font-weight: bold;
+}
+
+.content p{
+    font-family: var(--font-text);
+}
+
+.counting p{
+    margin: 0;
+}
+
+.counting h4{
+    font-weight: bold;
+}
+
+.counting p,
+.counting h4{
+    margin-left: 1rem;
+}
+
+.left-side,
+.right-side{
+    border-left: 4px solid #FF5F00;
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 990px) {
+    .button{
+        margin-top: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 760px) {
+    .aboutColumn{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .counting{
+        flex-direction: column;
+    }
+
+    .right-side{
+        margin: 0 !important;
+        margin-top: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .aboutColumn{
+        padding: 0;
+    }
 }
