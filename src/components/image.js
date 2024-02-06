@@ -6,6 +6,8 @@ import bread from '../assets/bread.jpg'
 import foods from '../assets/foods.jpg'
 import fries from '../assets/fries.jpg'
 import pizza from '../assets/pizza.jpg'
+import burgerLettuce from '../assets/burgerLettuce.jpg'
+import chicken from '../assets/chicken.jpg'
 
 
 export{
@@ -16,6 +18,8 @@ export{
     bread,
     foods,
     fries,
-    pizza
+    pizza,
+    burgerLettuce,
+    chicken
 }
 
