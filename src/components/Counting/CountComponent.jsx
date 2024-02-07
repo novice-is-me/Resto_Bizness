@@ -11,7 +11,7 @@ const CountComponent = ({end}) => {
     <ScrollTrigger onEnter={()=> setCountterOn(true)} 
     onExit={()=> setCountterOn(false)}>
       <div className='count'>
-        <h2>{counterOn && <h5><CountUp start={0} end={end} delay={0} duration={2} style={{fontSize: "2em", color: "#FF5F00"}}/></h5>}</h2>
+        <div>{counterOn && <h5><CountUp start={0} end={end} delay={0} duration={2} style={{fontSize: "2em", color: "#FF5F00"}}/></h5>}</div>
       </div>
     </ScrollTrigger>
   )

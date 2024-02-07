@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { breakfastData } from '../MenuFile';
+import MenuCard from '../MenuCard/MenuCard';
 
 const Menu = () => {
   const [show, isShow] = useState(false);
@@ -12,10 +12,7 @@ const Menu = () => {
             <h2>Most Popular Items</h2>
         </div>
         <div className='choices'>
-        <p>{breakfastData.map((item, index) =>{
-                      return <p key={index}>{item.title}</p>
-                    })}</p>
-            
+          <MenuCard/>
         </div>
       </div>
     </div>
