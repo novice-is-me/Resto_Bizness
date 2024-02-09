@@ -9,6 +9,19 @@ import pizza from '../assets/pizza.jpg'
 import burgerLettuce from '../assets/burgerLettuce.jpg'
 import chicken from '../assets/chicken.jpg'
 import pasta from '../assets/pasta.jpg'
+import eggRice from '../assets/eggRice.jpg'
+import sandwichHam from '../assets/sandwichHam.jpg'
+import pancake from '../assets/pancake.jpg'
+import cerealOats from '../assets/cerealOats.jpg'
+import coffee from '../assets/coffee.jpg'
+import adobo from '../assets/adobo.jpg'
+import chickenSalad from '../assets/chickenSalad.jpg'
+import crab from '../assets/crab.jpg'
+import steak from '../assets/steak.jpg'
+import sushi from '../assets/sushi.jpg'
+import tunasalad from '../assets/tunasalad.jpg'
+import meatSoup from '../assets/meatSoup.jpg'
+import fishFillet from '../assets/fishFillet.jpg'
 
 
 export{
@@ -22,6 +35,19 @@ export{
     pizza,
     burgerLettuce,
     chicken,
-    pasta
+    pasta,
+    eggRice,
+    sandwichHam,
+    pancake,
+    cerealOats,
+    coffee,
+    adobo,
+    chickenSalad,
+    crab,
+    steak,
+    sushi,
+    tunasalad,
+    meatSoup,
+    fishFillet
 }
 

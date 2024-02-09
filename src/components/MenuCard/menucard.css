@@ -1,0 +1,13 @@
+.border-bottom{
+    border-bottom: 1px solid #FF5F00 !important;
+}
+
+h3{
+    font-family: var(--font-brand);
+}
+
+span,
+p{
+    font-family: var(--font-text);
+}
+
