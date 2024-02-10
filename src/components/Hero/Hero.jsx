@@ -14,7 +14,7 @@ const Hero = () => {
             <p>Delight in a seamless process as you discover, order, and savor with ease.</p>
           </div>
           <div className='button-container'> 
-            <ButtonComponent text={"Get Started"}/> 
+            <ButtonComponent text={"Get Started"} className={'button'}/> 
           </div>
         </div>
         <div className='right-container'>

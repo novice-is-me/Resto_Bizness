@@ -8,7 +8,7 @@ import AboutComponents from '../AboutComponents/AboutComponents.jsx'
 const About = () => {
 
   return (
-    <div className='about m-0 p-5'>
+    <div className='about m-0 p-5 pb-0'>
         <div className='container d-grid'>
           <div className='d-flex row justify-content-center'>
             <CardComponent image={chef} title={"Master Chefs"} 
