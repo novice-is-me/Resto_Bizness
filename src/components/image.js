@@ -22,6 +22,14 @@ import sushi from '../assets/sushi.jpg'
 import tunasalad from '../assets/tunasalad.jpg'
 import meatSoup from '../assets/meatSoup.jpg'
 import fishFillet from '../assets/fishFillet.jpg'
+import barbeque from '../assets/barbeque.jpg'
+import cheesyPasta from '../assets/cheesyPasta.jpg'
+import cookFlatBread from '../assets/cookFlatBread.jpg'
+import lasagna from '../assets/lasagna.jpg'
+import meatAndMintNoodles from '../assets/meatAndMintNoodles.jpg'
+import meatyBeef from '../assets/meatyBeef.jpg'
+import roastedChicken from '../assets/roastedChicken.jpg'
+import shrimpCanton from '../assets/shrimpCanton.jpg'
 
 
 export{
@@ -48,6 +56,14 @@ export{
     sushi,
     tunasalad,
     meatSoup,
-    fishFillet
+    fishFillet,
+    barbeque,
+    cheesyPasta,
+    cookFlatBread,
+    lasagna,
+    meatAndMintNoodles,
+    meatyBeef,
+    roastedChicken,
+    shrimpCanton
 }
 

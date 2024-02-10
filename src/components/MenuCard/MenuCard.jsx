@@ -1,12 +1,12 @@
 import React from 'react'
-import { breakfastData, lunchData} from '../MenuFile'
+import { breakfastData, lunchData, dinnerData} from '../MenuFile'
 import './menuCard.css'
 
 const MenuCard = () => {
   return (
     <div className='menuCard m-0 p-5'>
       <div className='row'>
-            {lunchData.map((item, index) => {
+            {dinnerData.map((item, index) => {
                 return <div className='col col-lg-6 col-md-12 d-flex align-items-center'> 
                      <div className='image w-25'>
                          <img src={item.img} alt="" className='img-fluid' />

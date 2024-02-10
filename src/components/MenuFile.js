@@ -14,7 +14,16 @@ import {
     fishFillet,
     meatSoup,
     sushi,
-    tunasalad
+    tunasalad,
+    barbeque,
+    cheesyPasta,
+    cookFlatBread,
+    lasagna,
+    meatAndMintNoodles,
+    meatyBeef,
+    roastedChicken,
+    shrimpCanton
+
 } from './image.js' 
 
 
@@ -117,5 +126,65 @@ export const lunchData = [
         price: "PHP 200",
         description: "A meaty tuna healthy salad",
         img: tunasalad
+    }
+]
+
+barbeque,
+    cheesyPasta,
+    cookFlatBread,
+    lasagna,
+    meatAndMintNoodles,
+    meatyBeef,
+    roastedChicken,
+    shrimpCanton
+
+export const dinnerData = [
+    {
+        title: "Saucy Barbeque",
+        price: "PHP 210",
+        description: "Saucy Meaty Barbeque",
+        img: barbeque
+    },
+    {
+        title: "Cheesy Pasta",
+        price: "PHP 200",
+        description: "Bounty Cheese of Pasta",
+        img: cheesyPasta
+    },
+    {
+        title: "Cook Flat Bread",
+        price: "PHP 100",
+        description: "Tasty Cooked Bread",
+        img: cookFlatBread
+    },
+    {
+        title: "Lasagna",
+        price: "PHP 170",
+        description: "Cheesy and Meaty Lasagna",
+        img: lasagna
+    },
+    {
+        title: "Meat & Mint Noodles",
+        price: "PHP 170",
+        description: "Noodles fill up with Meat",
+        img: meatAndMintNoodles
+    },
+    {
+        title: "Meaty Beef",
+        price: "PHP 205",
+        description: "Saucy and Meaty Beef",
+        img: meatyBeef
+    },
+    {
+        title: "Roasted Chicken",
+        price: "PHP 230",
+        description: "A fine roasted chicken",
+        img: roastedChicken
+    },
+    {
+        title: "Shrimpy Canton",
+        price: "PHP 220",
+        description: "Canton with shrimp and cheese",
+        img: shrimpCanton
     }
 ]
