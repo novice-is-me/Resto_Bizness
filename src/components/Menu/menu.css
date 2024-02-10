@@ -7,3 +7,13 @@ h2{
     font-family: var(--font-brand);
     font-weight: 600;
 }
+
+
+.choices a{
+    font-family: var(--font-text);
+    font-weight: 600;
+}
+
+.choices a{
+    border-bottom: 1px solid #FF5F00;
+}
