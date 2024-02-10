@@ -28,7 +28,7 @@ const AboutComponents = () => {
             </div>
           </div>
         </div>
-        <div className='button'>
+        <div className='button-about'>
             <ButtonComponent text={"Read More"} className={'button'}/>
         </div>
     </div>

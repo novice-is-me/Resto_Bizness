@@ -34,12 +34,10 @@
     padding-left: 1rem;
 }
 
-.button:hover{
-    background-color: transparent !important;
-    color: black;
-    font-weight: 500;
+.button-about .button:hover{
+    background-color: transparent;
+    color: black !important;
 }
-
 @media screen and (max-width: 990px) {
     .button{
         margin-top: 1rem;
