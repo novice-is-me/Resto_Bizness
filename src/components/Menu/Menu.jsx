@@ -4,7 +4,7 @@ import { breakfastData, lunchData, dinnerData} from '../MenuFile'
 import './menu.css'
 
 const Menu = () => {
-  const [show, isShow] = useState(false);
+  const [isShow, setShow] = useState('default');
 
   return (
     <div className='menu m-0 p-5'>
@@ -13,14 +13,29 @@ const Menu = () => {
             <h3>Food Menu</h3>
             <h2>Most Popular Items</h2>
             <div className='d-flex justify-content-evenly border border-2 w-50 choices'>
-              <a href="" className='nav-link p-2'>Breakfast</a>
-              <a href="" className='nav-link p-2'>Lunch</a>
-              <a href="" className='nav-link p-2'>Dinner</a>
+              <a href="" className='nav-link p-2'
+                onClick={(e) => {
+                  e.preventDefault();
+                  setShow('default')
+                }}>Breakfast</a>
+              <a href="" className='nav-link p-2' 
+              onClick={(e) => {
+                  e.preventDefault();
+                  setShow('lunch')
+                }}>Lunch</a>
+              <a href="" className='nav-link p-2' 
+                onClick={(e) => {
+                  e.preventDefault();
+                  setShow('dinner')
+                }}>Dinner</a>
             </div>
         </div>
         <div className='choices'>
           {/* {show ?  : } */}
           {/* <MenuCard data={}/> */}
+          {isShow === 'default' && <MenuCard data={breakfastData}/>}
+          {isShow === 'lunch' && <MenuCard data={lunchData}/>}
+          {isShow === 'dinner' && <MenuCard data={dinnerData}/>}
         </div>
       </div>
     </div>
