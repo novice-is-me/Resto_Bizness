@@ -1,16 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Navbar from './components/Navbar/Navbar.jsx'
-import './index.css'
-import Hero from './components/Hero/Hero.jsx'
-import About from './components/About/About.jsx'
-import Menu from './components/Menu/Menu.jsx'
+import App from './App'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Navbar/> 
-    <Hero/> 
-    <About/>
-    <Menu/>
+    <App/>
   </React.StrictMode>,
 )
