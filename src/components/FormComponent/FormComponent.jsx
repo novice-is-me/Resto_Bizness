@@ -1,10 +1,41 @@
 import React from 'react'
+import './form.css'
+import ButtonComponent from '../Button/ButtonComponent'
 
 const FormComponent = () => {
   return (
-    <div className='form'>
+    <div className='form text-white p-4'>
+        <h3>Reservation</h3>
+        <h1>Book A Table Online</h1>
       <form action="">
-        <h1>;hello</h1>
+        <div className='row d-flex'>
+          <div className='col-6'>
+            <input type="text" placeholder='First Name' />
+          </div>
+          <div className='col'>
+            <input type="text" placeholder='Last Name' />
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col'>
+              <input type="text" placeholder='Date & Time'/>
+          </div>
+          <div className='col'>
+            <select name="option" id="option">
+              <option value="People 1">People 1</option>
+              <option value="People 2">People 2</option>
+              <option value="People 3">People 3</option>
+            </select>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col'>
+            <input type="text" placeholder='Special Request' />
+          </div>
+        </div>
+        <div>
+          <ButtonComponent/>
+        </div>
       </form>
     </div>
   )

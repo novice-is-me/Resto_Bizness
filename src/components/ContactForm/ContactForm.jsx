@@ -1,6 +1,7 @@
 import React from 'react'
 import FormComponent from '../FormComponent/FormComponent'
 import order from '../../assets/order.jpg'
+import './contact.css'
 
 const ContactForm = () => {
   return (
