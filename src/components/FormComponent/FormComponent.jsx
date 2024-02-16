@@ -6,17 +6,17 @@ const FormComponent = () => {
   return (
     <div className='form text-white p-4'>
         <h3>Reservation</h3>
-        <h1>Book A Table Online</h1>
+        <h1 className='pb-2'>Book A Table Online</h1>
       <form action="">
-        <div className='row d-flex'>
+        <div className='row d-flex pb-3'>
           <div className='col-6'>
-            <input type="text" placeholder='First Name' />
+            <input type="text" placeholder='First Name'/>
           </div>
           <div className='col'>
             <input type="text" placeholder='Last Name' />
           </div>
         </div>
-        <div className='row'>
+        <div className='row pb-3'>
           <div className='col'>
               <input type="text" placeholder='Date & Time'/>
           </div>
@@ -28,13 +28,13 @@ const FormComponent = () => {
             </select>
           </div>
         </div>
-        <div className='row'>
+        <div className='row message'>
           <div className='col'>
             <input type="text" placeholder='Special Request' />
           </div>
         </div>
         <div>
-          <ButtonComponent/>
+          <ButtonComponent text={"Book Now"} className={'button-form'}/>
         </div>
       </form>
     </div>

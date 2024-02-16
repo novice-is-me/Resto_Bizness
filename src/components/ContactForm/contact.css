@@ -5,3 +5,11 @@
 .contact-form-container{
     background-color: #092635;
 }
+
+img{
+    object-fit: contain !important;
+}
+
+.image-backg{
+    background: url(../../assets/order.jpg) no-repeat center center/cover;
+}

@@ -8,10 +8,8 @@ const ContactForm = () => {
     <div className='contact-form m-0 p-5 pb-0'>
       <div className='container'>
         <div className='contact-form-container d-flex'>
-            <div className='w-50'>
-                <img src={order} alt="" className='img-fluid'/>
-            </div>
-            <div className='w-50'>
+            <div className='w-50 image-backg'></div>
+            <div className='w-50 pt-3'>
                 <FormComponent/>
             </div>
         </div>
