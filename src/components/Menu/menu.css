@@ -17,3 +17,15 @@ h2{
 .choices a{
     border-bottom: 1px solid #FF5F00;
 }
+
+@media screen and (max-width: 400px) {
+    .menu{
+        padding: 3rem 1rem !important;
+    }
+
+    .menuCard{
+        padding-bottom: 0 !important;
+    }
+}
+
+

@@ -28,7 +28,7 @@
 }
 @media screen and (max-width: 400px) {
     .about{
-        padding: 3rem !important;
+        padding: 3rem 2rem !important;
     }
     
     .container{

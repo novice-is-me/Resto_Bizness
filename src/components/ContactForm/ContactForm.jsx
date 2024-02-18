@@ -5,7 +5,7 @@ import formBackground from '../../assets/formBackground.jpg'
 
 const ContactForm = () => {
   return (
-    <div className='contact-form m-0 p-5 pb-0'>
+    <div className='contact-form p-5'>
       <div className='container'>
         <div className='contact-form-container d-flex'>
             <div className='img-container'>

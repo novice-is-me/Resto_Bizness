@@ -12,7 +12,7 @@ const FormComponent = () => {
           <div className='col col-12 col-md-6'>
             <input type="text" placeholder='First Name'/>
           </div>
-          <div className='col col-12'>
+          <div className='col col-12 col-md-6'>
             <input type="text" placeholder='Last Name' />
           </div>
         </div>

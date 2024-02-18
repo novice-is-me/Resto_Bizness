@@ -19,10 +19,9 @@ select{
     }
 }
 
-@media screen and (max-width: 400px) {
-    .flex-form{
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width: 767px) {
+    .form-child-container{
+        padding: 0;
     }
 
     .flex-form .col-12{
@@ -32,6 +31,16 @@ select{
     .first-row{
         padding-bottom: 0 !important;
     }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .flex-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 
 }
 

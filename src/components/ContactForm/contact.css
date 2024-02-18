@@ -16,6 +16,7 @@
     background: url('../../assets/formBackground.jpg') no-repeat center center/cover;
 }
 
+
 @media screen and (min-width: 650px) and (max-width: 2560px ) {
     .img-backgr{
         display: none;
@@ -26,6 +27,7 @@
 
     .contact-form-container{
         flex-direction: column;
+        margin: 3rem 0;
     }
     .img-container,
     .form-container{
@@ -34,6 +36,12 @@
 
     .img-backgr{
         display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-form{
+        padding: 3rem 2rem !important;
     }
 }
 
