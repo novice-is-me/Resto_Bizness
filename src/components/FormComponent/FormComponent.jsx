@@ -4,15 +4,15 @@ import ButtonComponent from '../Button/ButtonComponent'
 
 const FormComponent = () => {
   return (
-    <div className='form text-white p-4'>
+    <div className='form-child-container text-white p-4'>
         <h3>Reservation</h3>
         <h1 className='pb-2'>Book A Table Online</h1>
-      <form action="">
-        <div className='row d-flex pb-3'>
-          <div className='col-6'>
+      <form action="" className='flex-form'>
+        <div className='row pb-3 first-row'>
+          <div className='col col-12 col-md-6'>
             <input type="text" placeholder='First Name'/>
           </div>
-          <div className='col'>
+          <div className='col col-12'>
             <input type="text" placeholder='Last Name' />
           </div>
         </div>

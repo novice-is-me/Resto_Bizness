@@ -30,6 +30,7 @@ import meatAndMintNoodles from '../assets/meatAndMintNoodles.jpg'
 import meatyBeef from '../assets/meatyBeef.jpg'
 import roastedChicken from '../assets/roastedChicken.jpg'
 import shrimpCanton from '../assets/shrimpCanton.jpg'
+import formBackground from '../assets/formBackground.jpg'
 
 
 export{
@@ -64,6 +65,7 @@ export{
     meatAndMintNoodles,
     meatyBeef,
     roastedChicken,
-    shrimpCanton
+    shrimpCanton,
+    formBackground
 }
 

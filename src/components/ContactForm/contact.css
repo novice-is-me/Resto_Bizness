@@ -4,12 +4,37 @@
 
 .contact-form-container{
     background-color: #092635;
+    flex-direction: row;
 }
 
-img{
-    object-fit: contain !important;
+.img-container,
+.form-container{
+    width: 50%;
 }
 
-.image-backg{
-    background: url(../../assets/order.jpg) no-repeat center center/cover;
+.img-container{
+    background: url('../../assets/formBackground.jpg') no-repeat center center/cover;
 }
+
+@media screen and (min-width: 650px) and (max-width: 2560px ) {
+    .img-backgr{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .contact-form-container{
+        flex-direction: column;
+    }
+    .img-container,
+    .form-container{
+        width: 100%;
+    }
+
+    .img-backgr{
+        display: block;
+    }
+}
+
+

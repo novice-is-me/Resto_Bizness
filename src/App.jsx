@@ -4,6 +4,7 @@ import About from './components/About/About.jsx'
 import Menu from './components/Menu/Menu.jsx'
 import './index.css'
 import ContactForm from './components/ContactForm/ContactForm.jsx'
+import ProfileCard from './components/ProfileCard/ProfileCard.jsx'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
     <About/>
     <Menu/>
     <ContactForm/>
+    <ProfileCard/>
     </>
   )
 }
