@@ -17,6 +17,10 @@
     font-family: var(--font-text);
 }
 
+.card-body:hover{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 769px) {
     .card{
         max-width: 70%;

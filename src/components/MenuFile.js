@@ -129,15 +129,6 @@ export const lunchData = [
     }
 ]
 
-barbeque,
-    cheesyPasta,
-    cookFlatBread,
-    lasagna,
-    meatAndMintNoodles,
-    meatyBeef,
-    roastedChicken,
-    shrimpCanton
-
 export const dinnerData = [
     {
         title: "Saucy Barbeque",
@@ -187,4 +178,23 @@ export const dinnerData = [
         description: "Canton with shrimp and cheese",
         img: shrimpCanton
     }
+]
+
+export const profileCardData =[
+    {
+        name: "Harold Lee",
+        designation: "Head Chef"
+    },
+    {
+        name: "Kim Cynthia",
+        designation: "Sous Chef"
+    },
+    {
+        name: "Jennifer Lim",
+        designation: "Patissier"
+    },
+    {
+        name: "Irene Adler",
+        designation: "Pantry Chef"
+    },
 ]
